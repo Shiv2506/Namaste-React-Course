@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
-import "../index.css" 
+import "./index.css"; 
 import Header from "./Assignment"
 
 //React Element
@@ -32,7 +32,7 @@ const HeaderComponent2 = () => (
         {/* Composing Components */}
         <Title />  
          {/* we can also use <Title()> */}
-         {/* we can also use <Title></Title> */}
+         {/* we can also use <Title></Title> --> usually used if we want to add children component*/}
         <h1>Namaste React Functional Component 2</h1>
         <h2>This is h2 tag</h2>
     </div>
